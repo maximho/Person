@@ -22,4 +22,8 @@ class Persona
   attr_accessor :name, :age
 end
 
+p = Persona.new
+p.name = "Fred"
+p.age = 20
+puts p.instance_variables #instance_variables
 
